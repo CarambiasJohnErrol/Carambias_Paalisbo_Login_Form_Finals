@@ -1,0 +1,86 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    overflow: hidden;
+    color: beige;
+}
+
+.fontstyle {
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.bgimage {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.jumbotron {
+    background: url(bgjumb.jpg);  
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: -10; 
+}
+
+
+.form-pad {
+    padding-bottom: 5%;
+    padding-top: 3%;
+}
+
+.loginpic {
+    width: 100px;
+    height: 100px;
+}
+
+.ctrmessage {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.size {
+    margin: 10%;
+}
+
+.btn-space {
+    width: 10%;
+}
+
+.divspc {
+    padding: 2%;
+    margin: 2%;
+}
+
+.divspc input{
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.divspc button {
+    font-size: 100%;
+}
+
+#hiddenMessageUser{
+    text-align: center;
+    display: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: beige;
+}
+
+#hiddenMessageAdmin{
+    position: absolute;
+    left: 42%;
+    display: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: beige;
+}
